@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-1{
+    background-color: #23232e;
+    text-align: center;
+    padding:10px 20%;
+    color: white;
+    overflow: hidden;
+}
+/*this is header area*/
+.header img{
+    padding: 50px;
+    width: 7%;
+}
+.header p{
+    font-size: 10px;
+    margin-bottom: 50px;
+    color: #f2f2f3;
+}
+.header a{
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    width: 40px;
+    padding:  6px 8px;
+    border-radius: 50%;
+    
+    
+}
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.bg-2{
+    background-image: none;
+    text-align: center;
+    padding: 20px 20%;
+    color: black;
+    overflow: hidden;
+}
+
+.bg-2 .what-i-do .txt{
+    font-size: 17px;
+    padding: 0 53px;
+}
+/*What i do area*/
+.what-i-do .txt{
+	font-size: 19px;
+	padding: 0 50px;
+    color: #464b4f;
+}
+.what-i-do h2{
+    color: #464b4f;
+}
+.what-i-do .col{
+    width: 29.33%;
+    margin: 2%;
+    float: left;
+    text-align: justify;
+}
+.what-i-do .col h4{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #5f6266;
+}
+.what-i-do .col p{
+    color: #888a8b;
+}
+/*this is my work area*/
+.mywork .menu{
+	margin-left: 60px;
+    text-align:center; 
+    position: relative; 
+    display: inline-block;
+    color: #c8c8ca;
+    margin-bottom: 30px;
+}
+.mywork .menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.mywork .menu ul li{
+	float: left;
+	padding: 0 20px;
+    
+}
+.mywork .menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: capitalize;
+	padding-bottom: 3px;
+}
+.mywork .menu ul li a:hover,
+.mywork .menu ul li .active{
+	border-bottom: 2px solid #7b77c9;
+}
+.mywork .col p{
+    color: #818baa;
+}
+.mywork .col,
+.photography .col{
+	width: 29.33%;
+	margin: 2%;
+	float: left;
+	text-align: justify;
+	text-align: center;
+    
+}
+.photography h2{
+    color: #464b4f;
+}
+.photography p{
+    color: #888a8b;
+}
+.mywork .col img,
+.photography .col img{
+	width: 100%;
+}
+button{
+	background-color: #7b77c9;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+	font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*this is subscribe area*/
+
+.subscribe a{
+    color: white;
+
+}
+.subscribe button{
+	border-radius: 0 5px 5px 0;
+}
+.subscribe p{
+    color: #888a8b;
+}
+.subscribe input{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px 0 0 5px;
+	font-size: 13px;
+	margin-right: -4px;
+}
+
+/*footer area*/
+.footer{
+    color: #7c7c7c;
+    
+}
+.footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 180px;
+    margin-bottom: 30px;
+}
+.footer ul li{
+	float: left;
+	padding: 0 20px;
+}
+.footer ul li a{
+	font-size: 17px;
+	color: #888a8b;
+}
+.footer .social ul{
+    margin-left: 60px;
+    text-align:center; 
+    position: relative; 
+    display: inline-block;
+}
+.footer .ftr{
+    margin-left: 60px;
+    text-align:center; 
+    position: relative; 
+    display: inline-block;
+}
+
+
+@media all and (max-width: 668px){
+	
+	.header img{
+		width: 8%;
+		padding-bottom: 0;
+	}
+	.bg-1,
+	.bg-2{
+		padding: 20px 10%;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.what-i-do .txt{
+		padding: 0 10px;
+	}
+	.what-i-do .col{
+		float: none;
+		width: 100%;
+	}
+	.mywork .menu ul li{
+		float: left;
+		padding: 0 10px;	
+	}
+	.mywork .menu{
+		margin-left: 10px;
+		text-align:center; 
+		position: relative; 
+		display: inline-block;
+	}
+	.mywork .col{
+		float: none;
+		width: 100%;
+	}
+	.photography .col{
+		float: none;
+		width: 100%;
+	}
+}
+
+
